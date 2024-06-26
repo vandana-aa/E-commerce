@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to Our E-commerce Store</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search for products...">
+        <button type="submit">Search</button>
+    </form>
+</header>
+
+<main>
+    <div id="products-container" class="products-container">
+        <!-- Products will be dynamically loaded here -->
+    </div>
+
+    <div id="pagination" class="pagination">
+        <!-- Pagination links will be dynamically loaded here -->
+    </div>
+
+    <div id="product-details" class="product-details" style="display: none;">
+        <!-- Product details will be dynamically loaded here -->
+    </div>
+
+    <div id="cart" class="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically loaded here -->
+        </div>
+        <button id="checkout" style="display: none;">Checkout</button>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
