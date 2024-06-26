@@ -1,5 +1,4 @@
 # E-commerce
-### Explanation of File Dependencies and User Flow
 
 #### File Dependencies
 
